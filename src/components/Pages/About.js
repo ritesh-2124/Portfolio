@@ -36,7 +36,7 @@ function About() {
                 <div>Blogs</div>
               </Link> }
             </li> */}
-            <li onClick={closeMobileMenu}>
+            <li className='round' onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -45,7 +45,7 @@ function About() {
                 <FaEnvelope />{' '}
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li  className='round'   onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -54,7 +54,7 @@ function About() {
                 <FaGithubSquare />
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li  className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +63,7 @@ function About() {
                 <FaLinkedin />
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li  className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -72,7 +72,7 @@ function About() {
                 <FaTwitterSquare />
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li  className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"

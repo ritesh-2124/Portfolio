@@ -30,6 +30,19 @@ li, .logo{
   margin: 0.5rem;
   cursor: pointer;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .round:hover {
+    animation: round-spin 1 0.5s linear;
+  }
+}
+@keyframes round-spin{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .menu{
   display: flex;
 }
@@ -296,6 +309,7 @@ transition: 3s;
   font-size: 30px;
 }
 #email:hover , #git:hover{
+  border-bottom: 5px dotted white;
    background-color: transparent;
 }
 .socialsInAbout{

@@ -18,7 +18,7 @@ function Nav() {
   return (
     <div className="navbar">
       <Link to='/'>
-      <div className="logo">{'<Ritesh />'}</div>
+      <div className="logo round">{'<Ritesh/>'}</div>
       </Link>
       <div className={click ? 'menu active' : 'menu'}>
         <ul className="navvs">
@@ -34,7 +34,7 @@ function Nav() {
                 <div>Blogs</div>
               </Link> }
             </li> */}
-            <li onClick={closeMobileMenu}>
+            <li className='round' onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -43,7 +43,7 @@ function Nav() {
                 <FaEnvelope />{' '}
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -52,7 +52,7 @@ function Nav() {
                 <FaGithubSquare />
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -61,7 +61,7 @@ function Nav() {
                 <FaLinkedin />
               </a>
             </li>
-            <li onClick={closeMobileMenu}>
+            <li className='round'  onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
