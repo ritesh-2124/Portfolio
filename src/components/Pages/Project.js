@@ -25,9 +25,9 @@ function Project() {
                         Himalaya
                     </div>
                     <div className="projinfo">
-                    A web application that deals with the sale of various
-Himalaya company products.
+                    A web application that deals with the sale of various Himalaya company products.
                     </div>
+                    <div className="projinfo">HTML | JavaScript | CSS | LocalStorage | DOM</div>
                     <div className='live_git'>
  <div className="projlinks">
                         <a href="https://himalayacwproject.netlify.app/"  target="_blank">Live</a>
@@ -48,6 +48,7 @@ Himalaya company products.
                     <div className="projinfo">
                     A web application where one can purchase a wide range of gym-related products.
                     </div>
+                    <div>HTML | JavaScript | CSS | LocalStorage | DOM</div>
                     <div className='live_git'>
                    <div className="links">
                     <a href="https://gymshark-team-shark.vercel.app" target='_blank' rel="noreferrer">Live</a>
