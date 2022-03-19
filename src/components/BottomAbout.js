@@ -33,8 +33,8 @@ function BottomAbout() {
                       <button type="submit" disabled={state.submitting}>Submit</button>
                     </form>   */}
              <div id='headeradd'>
-                  <h2 className='contsmes'>Email: RiteshYad222000@gmail.com</h2>
-                  <h2 className='contsmes'>Github: ritesh-2124</h2>
+                  <h2 className='contsmes'>Email:<a href='mailto:riteshyad222000@gmail.com' id='email'  > RiteshYad222000@gmail.com</a></h2>
+                  <h2 className='contsmes'>Github: <a href='https://github.com/ritesh-2124' id='git'  target="_blank">ritesh-2124</a> </h2>
                   <h2 className='contsmes'>From: PRAYAGRAJ U.P.</h2>
 
                 </div>

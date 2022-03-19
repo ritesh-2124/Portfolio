@@ -287,6 +287,14 @@ transition: 3s;
   justify-content: center;
   align-self: center;
 }
+#email , #git{
+  text-decoration: none;
+  border: none;
+  font-size: 30px;
+}
+#email:hover , #git:hover{
+   background-color: transparent;
+}
 .contactimg img{
   height: 350px;
   width: 350px;
