@@ -29,11 +29,11 @@ function Nav() {
         </ul>
         <div className="socials">
           <ul>
-            <li className="resumes" onClick={closeMobileMenu}>
+       {/*  <li className="resumes" onClick={closeMobileMenu}>
               {/* <Link to='/blog'>
                 <div>Blogs</div>
-              </Link> */}
-            </li>
+              </Link> }
+            </li> */}
             <li onClick={closeMobileMenu}>
               <a
                 target="_blank"

@@ -1,5 +1,13 @@
 import React from 'react';
 import Ritesh from '../images/insta pic.jpg';
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaTwitterSquare,
+  FaEnvelope,
+  FaInstagram
+} from 'react-icons/fa';
+import closeMobileMenu from "../Nav"
 
 function About() {
   return (
@@ -21,6 +29,60 @@ function About() {
             be used by billions of people use and having an impact on the world
             with my work.
           </div>
+          <div className="socialsInAbout">
+          <ul>
+       {/*  <li className="resumes" onClick={closeMobileMenu}>
+              {/* <Link to='/blog'>
+                <div>Blogs</div>
+              </Link> }
+            </li> */}
+            <li onClick={closeMobileMenu}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:riteshyad222000@gmail.com"
+              >
+                <FaEnvelope />{' '}
+              </a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/ritesh-2124"
+              >
+                <FaGithubSquare />
+              </a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/ritesh-yadav-3749a7202/"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/RiteshY30993174"
+              >
+                <FaTwitterSquare />
+              </a>
+            </li>
+            <li onClick={closeMobileMenu}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/rit___esh___html"
+              >
+                <FaInstagram />
+              </a>
+            </li>
+          </ul>
+        </div>
         </div>
         <div className="imageme">
           <img src={Ritesh} alt="Allan" height="300" />

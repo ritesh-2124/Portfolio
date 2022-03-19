@@ -12,6 +12,9 @@
 /* nav component */
 .navbar{
   display: flex;
+  width: 100%;
+  background-color: #111;
+  position: fixed;
   justify-content: space-between;
   padding: 0.5rem 1.3rem;
   color: #ffff;
@@ -294,6 +297,10 @@ transition: 3s;
 }
 #email:hover , #git:hover{
    background-color: transparent;
+}
+.socialsInAbout{
+  width: 200px;
+  font-size: 30px;
 }
 .contactimg img{
   height: 350px;
