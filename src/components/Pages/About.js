@@ -1,5 +1,5 @@
 import React from 'react';
-import Ritesh from '../images/insta pic.jpg';
+import Ritesh from '../images/propic.jpg';
 import {
   FaGithubSquare,
   FaLinkedin,
