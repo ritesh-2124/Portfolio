@@ -16,7 +16,7 @@ function Home() {
           <a href="#bottom">Get In Touch</a>
         </div>
         <div className="button">
-          <a href="https://drive.google.com/file/d/18KG9VPwdGJzP73msH0H-Dgw_srD3Drrr/view?usp=sharing"  target="_blank">Resume</a>
+          <a href="https://drive.google.com/drive/u/1/folders/1HR9afslsZB1nPoq-r9v5dyAM2GhuJmES"  target="_blank">Resume</a>
         </div>
         </div>
        

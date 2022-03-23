@@ -25,7 +25,7 @@ function Nav() {
           <li className='hovers' onClick={closeMobileMenu}> <a href='#about'>About</a>  </li>
           <li className='hovers' onClick={closeMobileMenu}><a href='#project'>Projects</a> </li>
           <li className='hovers' onClick={closeMobileMenu}><a href='#bottom' >Contact</a> </li>
-          <li className='hovers' onClick={closeMobileMenu}><a  target="_blank" href='https://drive.google.com/file/d/18KG9VPwdGJzP73msH0H-Dgw_srD3Drrr/view?usp=sharing' >Resume</a> </li>
+          <li className='hovers' onClick={closeMobileMenu}><a  target="_blank" href='https://drive.google.com/drive/u/1/folders/1HR9afslsZB1nPoq-r9v5dyAM2GhuJmES' >Resume</a> </li>
         </ul>
         <div className="socials">
           <ul>
