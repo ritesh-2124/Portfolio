@@ -523,7 +523,8 @@ form button{
   display: flex;
   justify-content: space-between;
 }
-.hovers:hover{
-border-bottom: 2px solid rgb(119, 0, 255);
-transition: 1s;
+
+
+html{
+  scroll-behavior: smooth;
 }

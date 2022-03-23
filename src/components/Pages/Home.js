@@ -3,7 +3,7 @@ import Hello from '../images/undraw_Hello_re_3evm.svg';
 // import resume from '../docs/resumee.pdf';
 function Home() {
   return (
-    <div className="home">
+    <div id='Homeid' className="home">
       <div className="main">
         <div className="intro">
           <div className="text">Hi I'm Ritesh Yadav</div>

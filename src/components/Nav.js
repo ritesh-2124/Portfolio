@@ -18,10 +18,11 @@ function Nav() {
   return (
     <div className="navbar">
       <Link to='/'>
-      <div className="logo round">{'<Ritesh/>'}</div>
+      <div className="logo round"> {'<Ritesh />'}</div>
       </Link>
       <div className={click ? 'menu active' : 'menu'}>
         <ul className="navvs">
+        <li className='hovers' onClick={closeMobileMenu}> <a href='#Homeid'>Home</a>  </li>
           <li className='hovers' onClick={closeMobileMenu}> <a href='#about'>About</a>  </li>
           <li className='hovers' onClick={closeMobileMenu}><a href='#project'>Projects</a> </li>
           <li className='hovers' onClick={closeMobileMenu}><a href='#bottom' >Contact</a> </li>
