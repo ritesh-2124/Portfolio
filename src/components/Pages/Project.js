@@ -19,6 +19,28 @@ function Project() {
             <div className="container">
             <div className="projs">
                     <div className="img">
+                        <img src="https://github.com/ritesh-2124/my-world-front-end/raw/main/public/Screenshot%20(1324).png" alt="gymshark"/>
+                    </div>
+                    <div className="title">
+                        MyWorld.com
+                    </div>
+                    <div className="projinfo">
+                    A web application where one can purchase a wide range of products.
+                    </div>
+                    <div className="projinfo">Tech-Stacks : React | redux | mui(React UI framework) | LocalStorage | MongoDb | NPM | Express | Node js</div>
+                    <div className='live_git'>
+                   <div className="links">
+                    <a href="https://my-world-front-end.vercel.app/" target='_blank' rel="noreferrer">Live</a>
+                    </div>
+                    <div className="links">
+                    <a href="https://github.com/ritesh-2124/my-world-front-end" target='_blank' rel="noreferrer">Source Code</a>
+                    </div>
+
+                    </div>
+                    
+                </div>
+            <div className="projs">
+                    <div className="img">
                         <img src={Gymshark} alt="gymshark"/>
                     </div>
                     <div className="title">
