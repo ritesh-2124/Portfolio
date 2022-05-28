@@ -529,3 +529,7 @@ form button{
 html{
   scroll-behavior: smooth;
 }
+
+.resumebtn{
+padding: 50px;
+}
