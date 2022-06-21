@@ -13,7 +13,7 @@ function Home() {
         </div>
         <div id='resumesec'>
            <div className="button">
-          <a href="#bottom">Get In Touch</a>
+          <a className='resumebtn' href="#bottom">Get In Touch</a>
         </div>
         <div className="button">
           <a className='resumebtn' href="https://drive.google.com/file/d/1sSbydhvPiNDJfU9yuPVg9nwswtQw3Mef/view?usp=sharing"  target="_blank">Resume</a>
