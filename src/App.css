@@ -475,6 +475,7 @@ form button{
   .button{
     padding: 0.7rem;
   }
+ 
   /* Project */
   .Project .container{
     display: block;
@@ -530,6 +531,7 @@ html{
   scroll-behavior: smooth;
 }
 
-.resumebtn{
-padding: 50px;
+.button{
+padding: 10px;
+height: auto;
 }
